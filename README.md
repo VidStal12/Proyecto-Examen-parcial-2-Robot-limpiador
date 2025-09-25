@@ -11,21 +11,34 @@ Video de apoyo para instalación :https://youtu.be/JCpXil0t-Fo?si=RYlSTyCO23PPBQ
 
 
 2. Instalar Sagemath con anaconda/miniconda para creación del ambiente
+
 2.1 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+
 2.2 bash Miniconda3-latest-Linux-x86_64.sh
+
+
 2.3 Reiniciar terminal después de instalar conda
+
+
 2.4 (opcional) Sage tiene instalado Python por defecto pero podemos instalarlo de forma independiente con : sudo apt install python3 python3-pip python3-tk -y
 tambien instala pip el cual nos permitira instalr librerias en dentro de nuestra distribución de Linux
 
 3.Para Crear un entorno de Sagemath deberemos seguir los siguientes pasos
+
 3.1 conda create -n sageenv sage python=3.11 -c conda-forge -y
+
 3.2 conda activate sageenv
 
 
 4. Configuración de Visual Studio Code para WSL
+   
 4.1. Instalar la extensión "Remote - WSL" en VS Code
+
 4.2. Abrir VS Code y presionar Ctrl+Shift+P
+
 4.3. Buscar "WSL: Connect to WSL"
+
 4.4. Seleccionar la distribución Linux instalada (usualmente Ubuntu por defecto al instalar WSL)
 
 Configuración del interprete : 
